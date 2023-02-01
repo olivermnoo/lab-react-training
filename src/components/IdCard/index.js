@@ -1,32 +1,31 @@
 import style from './style.module.css';
 
 export function IdCard(props) {
+const birthReturn = (props.birth).toDateString()
+
   return (
-    <div>
-      <div>
-        <img />
+    <div className ={style.idCard}>
+      <div className ={style.boxImage}>
+        <img src={props.picture}/>
       </div>
-      <div>
-        <p>
-          <strong>First Name:</strong>
+      <div className = {style.contentList}>
+        <p className= {style.content}>
+          <strong>First Name: </strong>
           {props.firstName}
         </p>
-        <p>
-          <strong>Last Name:</strong>
+        <p className= {style.content}>
+          <strong>Last Name: </strong>
           {props.lastName}
         </p>
-        <p>
-          <strong>Gender:</strong>
+        <p className= {style.content}>
+          <strong>Gender: </strong>
           {props.gender}
         </p>
-        <p>
-          <strong>First Name:</strong>
-          {props.height}
+        <p className= {style.content}>
+          <strong>Birth: </strong>
+          {birthReturn}
         </p>
-        <p>
-          <strong>First Name:</strong>
-          {props.firstName}
-        </p>
+      
       </div>
     </div>
   );

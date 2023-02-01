@@ -1,0 +1,24 @@
+.idCard{
+display: flex;
+width: 80%;
+height: 140px;
+border: 2px solid black;
+margin: 10px;
+font-family: sans-serif;
+align-items: center;
+}
+
+.boxImage{
+ margin-left: 5px;
+}
+
+.contentList{
+display: flex;
+flex-direction: column;
+margin-left: 5px;
+margin-top: -55px;
+}
+
+.content{
+    margin: 0px;
+}
