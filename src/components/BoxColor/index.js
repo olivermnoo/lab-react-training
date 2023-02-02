@@ -1,15 +1,18 @@
-// import style from './style.module.css';
+export function BoxColor(props) {
+  const styleDiv = {
+    backgroundColor: `rgb(${props.r}, ${props.g}, ${props.b})`,
+    width: "80%",
+    height: "150px",
+    display: "flex",
+    justifyContent: " center",
+    alignItems: " center",
+  };
+  return (
+    <div style={styleDiv}>
+      <p>Teste</p>
+    </div>
+  );
+}
 
-// export function BoxColor(props){
-//     const divStyle = {
-//         background-color: `rgb(` + props.r +`,` props.g + `,` props.b + `)`,
-//         width: (80+`%`),
-//         height: `150px`,
-//         display: `flex`,
-//         justify-content: `center`,
-//         align-items: `center`,
-//       };
-//     return <div style={divStyle}>
-//         <p></p>
-//     </div>
-// }
+// css inline react
+//styled components

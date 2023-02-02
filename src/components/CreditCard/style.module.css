@@ -1,0 +1,27 @@
+.logotipo {
+  width: 40px;
+  margin: 15px;
+}
+
+.divLogotipo {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.bankInfo {
+  display: flex;
+}
+.numberInfo {
+  font-size: 20px;
+  text-align: center;
+}
+
+.bankInfoLine {
+  margin: 0px;
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+
+.contentInfo {
+  margin-bottom: 15px;
+}

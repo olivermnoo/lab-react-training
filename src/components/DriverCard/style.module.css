@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  background-color: #455eb5;
+  border-radius: 15px;
+  font-family: sans-serif;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 140px;
+  width: 800px;
+}
+
+.imageDriver {
+  height: 100px;
+  object-fit: cover;
+  width: 100px;
+  border-radius: 100px;
+}
+
+.name {
+  font-size: 24px;
+  margin-left: 5px;
+}
+.stars {
+  font-size: 24px;
+  margin-left: 5px;
+}
+.car {
+  font-size: 16px;
+  margin-left: 5px;
+}
